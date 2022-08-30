@@ -1,12 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <link rel="stylesheet" href="style.css" />
-      <title>My Personal Space</title>
-  </head>
-  <body>
-      <h1>Hello world!</h1>
-      <script src="script.js"></script>
-      <h3>Can you read this, Alyssa?</h3>
-  </body>
+
+<head>
+    <title>Justin Hobbs-Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav id="header" class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Justin Hobbs</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_title">Justin Hobbs</h2>
+                    <p class="hero_desc">Full-Stack Software Developer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-3">
+                    <img src="images/about.jpeg" class="imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-9">
+                    <p>
+                        Hello World! My name is Justin and I am a Full Stack Software Engineer. I spent the past 10
+                        years working in the live audio and video production world and recently made a career change
+                        into software because I always enjoyed the troubleshooting and problem solving that I got from
+                        the AV world and wanted to transfer into a more stable environment.
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-4">
+                            <ul>
+                                <li>Name: Justin Hobbs</li>
+                                <li>Interests: Music | Technology | Disc Golf </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="row mt-3">
+                        <p> I graduated from Flatiron school's software engineering program and I'm proficient in HTML,
+                            CSS, JavaScript, React, Ruby, Ruby on Rails, and SQL. I look forward to working in a
+                            fast-paced, diverse work environment that values my persistence and quick ability to learn
+                            and adapt.My dream is to use the skills I’ve learned at Flatiron to help companies build a
+                            better, easier to use product and to help the user love their technology.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- services section-->
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Skills</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body ">
+                            <i class='fas servicesIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3">Development</h4>
+                            <li class="card-text mt-3"> JavaScript</li>
+                            <li class="card-text mt-3"> React</li>
+                            <li class="card-text mt-3"> Ruby</li>
+                            <li class="card-text mt-3"> Rails</li>
+                            <li class="card-text mt-3"> SQL</li>
+                            <li class="card-text mt-3"> ActiveRecord</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Design</h4>
+                            <li class="card-text mt-3"> HTML</li>
+                            <li class="card-text mt-3"> CSS</li>
+                            <li class="card-text mt-3"> Bootstrap</li>
+                            <li class="card-text mt-3"> Semantic UI</li>
+                            <li class="card-text mt-3"> UX/UI and visual design</li>
+                            <li class="card-text mt-3"> Typography</li>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Application</h4>
+                            <li class="card-text mt-3"> Git</li>
+                            <li class="card-text mt-3"> Github</li>
+                            <li class="card-text mt-3"> Heroku</li>
+                            <li class="card-text mt-3"> Netlify</li>
+                            <li class="card-text mt-3">JSON</li>
+                            <li class="card-text mt-3"> API</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/blog.PNG" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">My Blog</h4>
+                            <p class="card-text">My personal blog where I share my thoughts and my journey as a software
+                                developer.</p>
+                            <div class="text-center">
+                                <a href="https://medium.com/@joonjung55" target="_blank" class="btn btn-success">Blog
+                                    Posts</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/phase1.PNG" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Watcha Drinkin'?</h4>
+                            <p class="card-text">A single page application built with JavaScript, HTML, and CSS using
+                                the CocktailDB API. </p>
+                            <div class="text-center">
+                                <a href="https://github.com/joonjung239/Cocktail-Database" target="_blank"
+                                    class="btn btn-success">Github</a>
+                                <a href="https://joonjung239.github.io/Cocktail-Database/" target="_blank"
+                                    class="btn btn-success">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/phase2.PNG" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Exercise Database</h4>
+                            <p class="card-text">A React application built using React, React Router, JS, HTML, and CSS
+                                implementing the ExerciseDB API.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/joonjung239/exercise-database" target="_blank"
+                                    class="btn btn-success">Github</a>
+                                <a href="https://rainbow-dango-4193e3.netlify.app/" target="_blank"
+                                    class="btn btn-success">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioimage2.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">The Spice Rack</h4>
+                            <p class="card-text">An application built in Ruby with a Sinatra API backend that uses
+                                ActiveRecord to support a React Frontend that interacts with the database via the API.
+                            </p>
+                            <div class="text-center">
+                                <a href="https://github.com/joonjung239/the-spice-rack-frontend" target="_blank"
+                                    class="btn btn-success">FrontEnd</a>
+                                <a href="https://github.com/joonjung239/the-spice-rack-backend" target="_blank"
+                                    class="btn btn-success">BackEnd</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/phase4.PNG" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">League of Legends Index</h4>
+                            <p class="card-text">An Application built with Ruby on Rails backend using a Leauge of
+                                Legends API. Which also supports a React frontend that interacts with the database.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/sebas5950/frontend-league-of-legends-item-builder"
+                                    target="_blank" class="btn btn-success">FrontEnd</a>
+                                <a href="https://github.com/sebas5950/backend-league-of-legends-item-builder"
+                                    target="_blank" class="btn btn-success">BackEnd</a>
+                                <a href="https://www.youtube.com/watch?v=ynHK9aH94dQ" target="_blank"
+                                    class="btn btn-success">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/Thumbnail.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Pokémon Pokédex</h4>
+                            <p class="card-text"> My Capstone project for FlatIron Coding Bootcamp. An application built
+                                with a Ruby on Rails backend using a customized API to support a React Frontend that
+                                interacts with the backends database.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/joonjung239/pokedex" target="_blank"
+                                    class="btn btn-success">GitHub MonoRepo</a>
+                                <a href="https://www.youtube.com/watch?v=vUnJtKeuyfg" target="_blank"
+                                    class="btn btn-success">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0"
+                                src="https://www.google.com/maps/embed/v1/place?q=78666&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com"
+                            id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>
+                            #embedmap-canvas img {
+                                max-width: none !important;
+                                background: none !important;
+                                font-size: inherit;
+                                font-weight: inherit;
+                            }
+                        </style>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form name="contact" method="POST" data-netlify="true">
+                        <input name="name" type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input name="email" type="email" class="form-control mt-3" placeholder="Email">
+                        <input name="subject" type="text" class="form-control mt-3" placeholder="Subject">
+                        <textarea name="message" class="form-control mt-3" rows="5" id="comment" name="text"
+                            placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn-success mt-3">Contact Me</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+
+            <div class="social-icons mt-4">
+                <a href="https://www.instagram.com/j_hobbs12/" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://medium.com/@jj-hobbs" target="_blank"><i class="fab fa-medium"></i></a>
+                <a href="https://www.linkedin.com/in/jj-hobbs/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/jj-hobbs" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
 </html>
