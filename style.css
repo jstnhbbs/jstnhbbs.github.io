@@ -2,13 +2,18 @@
     background-color: #111113;
 }
 
+.nav-link {
+    color: #ffffff;
+}
+
 /* hero background image */
 .bgimage {
-    height:100vh;
+    height: 100vh;
     background: url('images/heroImage.jpeg');
-    background-size:cover;
-    position:relative;
+    background-size: cover;
+    position: relative;
 }
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
@@ -19,8 +24,9 @@
 .hero_desc {
     font-size: 1.9rem;
     color: #ffffff;
-    
+
 }
+
 .hero-text {
     text-align: center;
     position: absolute;
@@ -38,6 +44,7 @@
 #contact {
     padding-bottom: 4rem;
 }
+
 /* about section image css */
 .imageAboutPage {
     width: 100%;
@@ -47,24 +54,29 @@
 .servicesText.card {
     height: 350px;
     cursor: pointer;
-  }
+}
+
 .servicesIcon {
     font-size: 28px;
     text-align: center;
     width: 100%;
 }
+
 .card-title {
     text-align: center;
 }
+
 .card-text {
     font-size: 14px;
-    
+
 }
+
 .card:hover .servicesIcon {
-    color: #008000;
+    color: #ff0000;
 }
+
 .servicesText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #000080;
 }
 
 /* social media icons styling */
@@ -72,20 +84,28 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-instagram:hover,.fa-medium:hover,.fa-linkedin:hover, .fa-github:hover {
+
+.fa-instagram:hover,
+.fa-medium:hover,
+.fa-linkedin:hover,
+.fa-github:hover {
     color: #094a00;
 }
+
 .fab {
-    color: #000000;
+    color: #ffffff;
 }
+
 /* footer styling */
 #footer {
-    background-color: #0000007b;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.80) 0%, rgba(255, 255, 255, 0) 100%);
     text-align: center;
+    padding-top: 40px;
 }
 
 #header {
-    background-color: #0000007b;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(255, 255, 255, 0) 100%);
+    padding-bottom: 40px;
 }
 
 #about {
@@ -104,3 +124,7 @@
     border-radius: 200px;
 }
 
+.btn.btn-success {
+    background-color: #7d977d;
+    outline-color: #000000;
+}
