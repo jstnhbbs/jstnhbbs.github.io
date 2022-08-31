@@ -1,3 +1,11 @@
+/* body {
+    background-color: #00f7ff;
+} */
+
+/* section {
+    background-color: #eff0f2;
+} */
+
 .navbarScroll.navbarDark {
     background-color: #111113;
 }
@@ -72,7 +80,12 @@
 }
 
 .card:hover .servicesIcon {
-    color: #ff0000;
+    color: #647C90;
+    
+}
+
+.card{
+    background-color: #eff0f2;
 }
 
 .servicesText:hover {
@@ -89,7 +102,7 @@
 .fa-medium:hover,
 .fa-linkedin:hover,
 .fa-github:hover {
-    color: #094a00;
+    color: #2a4a61;
 }
 
 .fab {
@@ -98,13 +111,13 @@
 
 /* footer styling */
 #footer {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.80) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.90) 0%, rgba(255, 255, 255, 0) 100%);
     text-align: center;
     padding-top: 40px;
 }
 
 #header {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.90) 0%, rgba(255, 255, 255, 0) 100%);
     padding-bottom: 40px;
 }
 
@@ -124,7 +137,14 @@
     border-radius: 200px;
 }
 
-.btn.btn-success {
-    background-color: #7d977d;
-    outline-color: #000000;
+.btn.btn {
+    background-color: #eaeaea;
+    border-color: #4E4F50;
+    color: #2a4a61;
+}
+
+.btn.btn:hover {
+    background-color: #2a4a61;
+    border-color: #4E4F50;
+    color: #eaeaea;
 }
