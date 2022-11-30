@@ -81,10 +81,10 @@
 
 .card:hover .servicesIcon {
     color: #647C90;
-    
+
 }
 
-.card{
+.card {
     background-color: #eff0f2;
 }
 
@@ -113,12 +113,12 @@
 #footer {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.90) 0%, rgba(255, 255, 255, 0) 100%);
     text-align: center;
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
 #header {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.90) 0%, rgba(255, 255, 255, 0) 100%);
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 #about {
