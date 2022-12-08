@@ -14,7 +14,6 @@
     color: #ffffff;
 }
 
-
 /* hero background image */
 .bgimage {
     height: 100vh;
@@ -103,7 +102,7 @@
 .fa-medium:hover,
 .fa-linkedin:hover,
 .fa-github:hover {
-    color: #2a4a61;
+    color: #204b27;
 }
 
 .fab {
