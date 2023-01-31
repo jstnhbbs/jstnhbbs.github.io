@@ -94,8 +94,8 @@
 
 /* social media icons styling */
 .social-icons {
-    font-size: 60px;
-    cursor: pointer;
+    font-size: 40px;
+    /* cursor: pointer; */
 }
 
 .fab {
