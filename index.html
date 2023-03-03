@@ -309,12 +309,20 @@
                 </div>
                 <div class="col-lg-6">
                     <!-- form fields -->
-                    <form name="contact" method="POST" data-netlify="true">
+                    <!-- <form name="contact" method="POST" data-netlify="true">
                         <input name="name" type="text" class="form-control form-control-lg" placeholder="Name">
                         <input name="email" type="email" class="form-control mt-3" placeholder="Email">
                         <input name="subject" type="text" class="form-control mt-3" placeholder="Subject">
                         <textarea name="message" class="form-control mt-3" rows="5" id="comment" name="text"
                             placeholder="Message"></textarea>
+                        <button type="submit" class="btn mt-3">Contact Me</button>
+                    </form> -->
+                    <form action="https://formspree.io/f/xbjeypjj" method="POST">
+                        <input name="name" type="text" class="form-control form-control mt-3" placeholder="Name">
+                        <input name="email" type="email" class="form-control mt-3" placeholder="Email">
+                        <textarea name="message" class="form-control mt-3" rows="5" id="comment" name="text"
+                            placeholder="Message"></textarea>
+                        <!-- your other form fields go here -->
                         <button type="submit" class="btn mt-3">Contact Me</button>
                     </form>
 
